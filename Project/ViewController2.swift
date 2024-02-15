@@ -8,15 +8,15 @@
 import UIKit
 import SnapKit
 
-class ViewController: UIViewController {
+class ViewController2: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         setupViewController()
         addSubviews()
         addConstraints()
-        
+
         navigationItem.title = "navigationVC"
         navigationController?.toolbar.isTranslucent = false
     }
@@ -37,7 +37,7 @@ class ViewController: UIViewController {
     }()
 
     private func setupViewController() {
-        view.backgroundColor = .white
+        view.backgroundColor = .black
     }
 
     private func addSubviews() {
@@ -47,7 +47,7 @@ class ViewController: UIViewController {
 
     @objc
     func buttonDidTapped() {
-        let vc = ViewController2()
+        let vc = ViewController3()
         navigationController?.pushViewController(vc, animated: true)
     }
 
