@@ -8,7 +8,7 @@
 import UIKit
 import SnapKit
 
-class ViewController4: UIViewController {
+class ViewController9: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,7 +47,7 @@ class ViewController4: UIViewController {
 
     @objc
     func buttonDidTapped() {
-        let vc = ViewController9()
+        let vc = ViewController10()
         navigationController?.pushViewController(vc, animated: true)
     }
 
